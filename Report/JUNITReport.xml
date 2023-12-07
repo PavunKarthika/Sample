@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="65.937025">
+    <testcase classname="" name="To validate with valid username and valid password" time="5.834007">
+        <system-out><![CDATA[Given TO launch the Inmakes app and maximize the window.....................passed
+When To launch the url of the application...................................passed
+And To pass the valid username to the Username field........................passed
+And To pass the valid password to the password field........................passed
+And To click the Login button...............................................passed
+And To check whether navigate to the Home page..............................passed
+And To print the title of the home page.....................................passed
+Then To close the Entire Application........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="To validate the Positive and Negative Combination Login Funcyionality" time="5.665424">
+        <system-out><![CDATA[Given TO launch the Inmakes app and maximize the window.....................passed
+When User has to hit the url of the Application.............................passed
+And Enter the username "Selenium123@gmail.com" to the Username Field........passed
+And Enter the password "123456789abc" to the password field.................passed
+And Click the login button..................................................passed
+Then Close the entire browser...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="To validate the Positive and Negative Combination Login Funcyionality 2" time="4.733259">
+        <system-out><![CDATA[Given TO launch the Inmakes app and maximize the window.....................passed
+When User has to hit the url of the Application.............................passed
+And Enter the username "pavun678@gmail.com" to the Username Field...........passed
+And Enter the password "Shashu@90" to the password field....................passed
+And Click the login button..................................................passed
+Then Close the entire browser...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="To validate the Positive and Negative Combination Login Funcyionality 3" time="35.850873">
+        <system-out><![CDATA[Given TO launch the Inmakes app and maximize the window.....................passed
+When User has to hit the url of the Application.............................passed
+And Enter the username "DivyaSree@yahoo.com" to the Username Field..........passed
+And Enter the password "ISEEYoupeekaboo" to the password field..............passed
+And Click the login button..................................................passed
+Then Close the entire browser...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="To validate the Positive and Negative Combination Login Funcyionality 4" time="4.711764">
+        <system-out><![CDATA[Given TO launch the Inmakes app and maximize the window.....................passed
+When User has to hit the url of the Application.............................passed
+And Enter the username "HeadandShouler@gmail.com" to the Username Field.....passed
+And Enter the password "987654321" to the password field....................passed
+And Click the login button..................................................passed
+Then Close the entire browser...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="To validate the Positive and Negative Combination Login Funcyionality 5" time="4.577834">
+        <system-out><![CDATA[Given TO launch the Inmakes app and maximize the window.....................passed
+When User has to hit the url of the Application.............................passed
+And Enter the username "mamaAthai@Yahoo.com" to the Username Field..........passed
+And Enter the password "inamkessv" to the password field....................passed
+And Click the login button..................................................passed
+Then Close the entire browser...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="To validate the Positive and Negative Combination Login Funcyionality 6" time="4.563864">
+        <system-out><![CDATA[Given TO launch the Inmakes app and maximize the window.....................passed
+When User has to hit the url of the Application.............................passed
+And Enter the username "SeleniumTrainer" to the Username Field..............passed
+And Enter the password "Viyayakumar" to the password field..................passed
+And Click the login button..................................................passed
+Then Close the entire browser...............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

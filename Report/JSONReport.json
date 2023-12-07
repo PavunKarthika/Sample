@@ -1,0 +1,811 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1810974200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "TO launch the Inmakes app and maximize the window",
+            "match": {
+              "location": "Mycode1.to_launch_the_Inmakes_app_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "To validate with valid username and valid password",
+        "description": "",
+        "id": ";to-validate-with-valid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1613056100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To launch the url of the application",
+            "match": {
+              "location": "Mycode.to_launch_the_url_of_the_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167533300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To pass the valid username to the Username field",
+            "match": {
+              "location": "Mycode.to_pass_the_valid_username_to_the_Username_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103426100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To pass the valid password to the password field",
+            "match": {
+              "location": "Mycode.to_pass_the_valid_password_to_the_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2015226800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To click the Login button",
+            "match": {
+              "location": "Mycode.to_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4305000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To check whether navigate to the Home page",
+            "match": {
+              "location": "Mycode.to_check_whether_navigate_to_the_Home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7200500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To print the title of the home page",
+            "match": {
+              "location": "Mycode.to_print_the_title_of_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106681700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "To close the Entire Application",
+            "match": {
+              "location": "Mycode.to_close_the_Entire_Application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1007230400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "TO launch the Inmakes app and maximize the window",
+            "match": {
+              "location": "Mycode1.to_launch_the_Inmakes_app_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "To validate the Positive and Negative Combination Login Funcyionality",
+        "description": "",
+        "id": ";to-validate-the-positive-and-negative-combination-login-funcyionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2191344700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User has to hit the url of the Application",
+            "match": {
+              "location": "Mycode1.user_has_to_hit_the_url_of_the_Application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 139965500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter the username \"Selenium123@gmail.com\" to the Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium123@gmail.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Mycode1.enter_the_username_to_the_Username_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82892100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Enter the password \"123456789abc\" to the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456789abc\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Mycode1.enter_the_password_to_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2117889400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Click the login button",
+            "match": {
+              "location": "Mycode1.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125764400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Close the entire browser",
+            "match": {
+              "location": "Mycode1.close_the_entire_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 959777100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "TO launch the Inmakes app and maximize the window",
+            "match": {
+              "location": "Mycode1.to_launch_the_Inmakes_app_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "To validate the Positive and Negative Combination Login Funcyionality",
+        "description": "",
+        "id": ";to-validate-the-positive-and-negative-combination-login-funcyionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1437489300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User has to hit the url of the Application",
+            "match": {
+              "location": "Mycode1.user_has_to_hit_the_url_of_the_Application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 150298200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter the username \"pavun678@gmail.com\" to the Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pavun678@gmail.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Mycode1.enter_the_username_to_the_Username_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92966300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Enter the password \"Shashu@90\" to the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shashu@90\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Mycode1.enter_the_password_to_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1962822600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Click the login button",
+            "match": {
+              "location": "Mycode1.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129547300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Close the entire browser",
+            "match": {
+              "location": "Mycode1.close_the_entire_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 878234600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "TO launch the Inmakes app and maximize the window",
+            "match": {
+              "location": "Mycode1.to_launch_the_Inmakes_app_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "To validate the Positive and Negative Combination Login Funcyionality",
+        "description": "",
+        "id": ";to-validate-the-positive-and-negative-combination-login-funcyionality;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32496034500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User has to hit the url of the Application",
+            "match": {
+              "location": "Mycode1.user_has_to_hit_the_url_of_the_Application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96191700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter the username \"DivyaSree@yahoo.com\" to the Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DivyaSree@yahoo.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Mycode1.enter_the_username_to_the_Username_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77057000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Enter the password \"ISEEYoupeekaboo\" to the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ISEEYoupeekaboo\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Mycode1.enter_the_password_to_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2206123100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Click the login button",
+            "match": {
+              "location": "Mycode1.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96916700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Close the entire browser",
+            "match": {
+              "location": "Mycode1.close_the_entire_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 838191600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "TO launch the Inmakes app and maximize the window",
+            "match": {
+              "location": "Mycode1.to_launch_the_Inmakes_app_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "To validate the Positive and Negative Combination Login Funcyionality",
+        "description": "",
+        "id": ";to-validate-the-positive-and-negative-combination-login-funcyionality;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1516306500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User has to hit the url of the Application",
+            "match": {
+              "location": "Mycode1.user_has_to_hit_the_url_of_the_Application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100532100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter the username \"HeadandShouler@gmail.com\" to the Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HeadandShouler@gmail.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Mycode1.enter_the_username_to_the_Username_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77928800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Enter the password \"987654321\" to the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"987654321\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Mycode1.enter_the_password_to_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2065651800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Click the login button",
+            "match": {
+              "location": "Mycode1.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112830700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Close the entire browser",
+            "match": {
+              "location": "Mycode1.close_the_entire_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 857805600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "TO launch the Inmakes app and maximize the window",
+            "match": {
+              "location": "Mycode1.to_launch_the_Inmakes_app_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "To validate the Positive and Negative Combination Login Funcyionality",
+        "description": "",
+        "id": ";to-validate-the-positive-and-negative-combination-login-funcyionality;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1408524800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User has to hit the url of the Application",
+            "match": {
+              "location": "Mycode1.user_has_to_hit_the_url_of_the_Application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 149680600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter the username \"mamaAthai@Yahoo.com\" to the Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mamaAthai@Yahoo.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Mycode1.enter_the_username_to_the_Username_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106832300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Enter the password \"inamkessv\" to the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"inamkessv\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Mycode1.enter_the_password_to_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1948448300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Click the login button",
+            "match": {
+              "location": "Mycode1.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106330500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Close the entire browser",
+            "match": {
+              "location": "Mycode1.close_the_entire_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 773529400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "TO launch the Inmakes app and maximize the window",
+            "match": {
+              "location": "Mycode1.to_launch_the_Inmakes_app_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "To validate the Positive and Negative Combination Login Funcyionality",
+        "description": "",
+        "id": ";to-validate-the-positive-and-negative-combination-login-funcyionality;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1482993600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User has to hit the url of the Application",
+            "match": {
+              "location": "Mycode1.user_has_to_hit_the_url_of_the_Application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113406400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter the username \"SeleniumTrainer\" to the Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SeleniumTrainer\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Mycode1.enter_the_username_to_the_Username_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67066800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Enter the password \"Viyayakumar\" to the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Viyayakumar\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Mycode1.enter_the_password_to_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2022680000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Click the login button",
+            "match": {
+              "location": "Mycode1.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103929800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Close the entire browser",
+            "match": {
+              "location": "Mycode1.close_the_entire_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": " To validate the login Fuctionality of Inmakes learning hub",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "src/test/resources/login.feature",
+    "tags": [
+      {
+        "name": "@Feature1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
